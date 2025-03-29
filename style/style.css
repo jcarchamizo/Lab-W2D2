@@ -165,3 +165,37 @@ h1{
 .lineheight10{
     line-height: 30px;
 }
+
+h1{
+    color: red;
+}
+
+.ulStyle{
+    list-style-type: circle;
+
+}
+
+nav{
+    background-color: #273032;
+    color: #ffffff;
+    padding: 10px;
+    display: flex;
+}
+
+nav.logo{
+    background-color: blue;
+}
+
+nav ul{    
+    margin: 0px;
+}
+
+nav a{
+    color: pink;
+}
+
+nav li{
+    list-style: none;
+    display: inline;
+    margin-right: 15px;
+}
