@@ -1,0 +1,25 @@
+h1{
+    color: green;
+}
+
+.initialConfig{
+    background-color: rgb(245, 202, 202);
+    padding: 10px;
+    height: 300px;
+    border: 3px solid red;
+}
+
+.bgTest{    
+    background-image: url("../img/gatitos2.jpg");
+    background-repeat: no-repeat;
+
+    background-position: center center;
+
+    background-size: contain;
+
+    background-attachment: fixed;
+}
+
+.bgGradient{
+    background-image: linear-gradient(to right, rgb(238, 198, 198), rgb(143, 92, 92));
+}

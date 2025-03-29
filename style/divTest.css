@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+}
+
+.container{
+    border: 2px solid #ff0000;
+    background-color: #f4abf2;    
+}
+
+.header{    
+    height: 150px;
+    background-color: #e5bc7a;    
+}
+
+.menu{    
+    height: 50px;
+    background-color: #c8cacc;
+}
+
+.leftSide{    
+    width: 75%;    
+    height: 400px;
+    background-color: #bdd2ef;
+    float: left;
+}
+
+.rightSide{    
+    width: 25%;
+    height: 400px;
+
+    background-color: #daf7e2;
+    float: right;
+}
+
+.footer{    
+    height: 75px;
+    background-color: #d3d1c1;
+    clear: both;   
+}

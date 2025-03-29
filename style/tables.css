@@ -1,0 +1,25 @@
+h1{
+    color: rgb(131, 47, 131);
+}
+
+.tableSeparate{
+    border-collapse: separate;
+    border-spacing: 10px 20px;
+    empty-cells: hide;
+
+}
+
+.table{
+    border-collapse: collapse; 
+    width: 100%;     
+}
+
+.table th{
+    background-color: rgb(245, 163, 163);
+    padding: 10px;
+}
+
+.table td{
+    padding: 5px;
+    text-align: center;
+}
