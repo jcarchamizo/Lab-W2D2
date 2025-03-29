@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/tables.css">
+</head>
+<body>
+    <h1>Tablas</h1>
+
+    <table class="tableSeparate" border="1">
+        <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Edad</th>
+        </tr>
+        <tr>
+            <td>Carlos</td>
+            <td>Sanchez</td>
+            <td>27</td>
+        </tr>
+        <tr>
+            <td>Andres</td>
+            <td></td>
+            <td>24</td>
+        </tr>
+        <tr>
+            <td>David</td>
+            <td>López</td>
+            <td>37</td>
+        </tr>
+    </table>
+<hr>
+    <table class="table" border="1">
+        <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Edad</th>
+        </tr>
+        <tr>
+            <td>Carlos</td>
+            <td>Sanchez</td>
+            <td>27</td>
+        </tr>
+        <tr>
+            <td>Andres</td>
+            <td>Sanchez</td>
+            <td>24</td>
+        </tr>
+        <tr>
+            <td>David</td>
+            <td>López</td>
+            <td>37</td>
+        </tr>
+    </table>
+<hr>
+    <table class="table" border="1">
+        <caption>Información de los alumnos</caption>
+
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Edad</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Carlos</td>
+                <td colspan="2">Sanchez</td>            
+            </tr>
+            <tr>
+                <td>Andres</td>
+                <td>Sanchez</td>
+                <td rowspan="2">24</td>
+            </tr>
+            <tr>
+                <td>David</td>
+                <td>López</td>            
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="3">Total de alumnos: 3</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+</html>
